@@ -1,0 +1,208 @@
+.nav-btn,
+.nav-btn2,
+.head-btn,
+.package-btn {
+  outline: none;
+  border: 0;
+  box-shadow: none;
+  padding: 7px 14px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.nav-btn2,
+.head-btn,
+.package-btn {
+  background: rgba(55, 43, 122, 0.882);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.nav-btn2:hover {
+  background: rgba(83, 63, 194, 0.882);
+}
+
+.head-item,
+.item-head {
+  color: rgba(55, 43, 122, 0.882);
+}
+
+.para-item {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.head-btn {
+  text-transform: uppercase;
+  padding: 7px 35px;
+}
+
+.head-img {
+  width: 100%;
+}
+
+.agend {
+  margin: 5% auto;
+}
+
+.card-section h3 {
+  color: #fff;
+}
+
+.card-section p {
+  color: #fff;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-item {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+}
+
+.card-item-footer {
+  background: #ee5564d3;
+  padding: 2px;
+}
+
+.my-section {
+  background: #5000ca;
+}
+.item-section {
+  position: relative;
+}
+.item-head {
+  position: absolute;
+  top: 50%;
+  left: 44%;
+}
+@media screen and (max-width: 650px) {
+  .item-head {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  }
+}
+.head-img {
+  margin-top: 40px;
+}
+.head-img1 {
+  width: 60%;
+}
+@media screen and (max-width: 650px) {
+  .head-img1 {
+    margin-top: 20px;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .sec-rev {
+    flex-direction: column-reverse;
+  }
+}
+.head-img2 {
+  width: 65%;
+}
+@media screen and (max-width: 650px) {
+  .head-img2 {
+    width: 75%;
+    margin-top: 20px;
+  }
+}
+.card-item2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-text {
+  color: grey;
+  line-height: 32px;
+  text-align: center;
+  margin: 10px;
+}
+.package-btn {
+  padding: 7px 35px;
+  margin: 0 35px 25px;
+}
+#package-footer {
+  background: none;
+}
+#cardbody {
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 330px;
+}
+.card-header {
+  color: #fff;
+}
+#student {
+  background: rgb(187, 70, 187);
+}
+#parent {
+  background: rgba(27, 55, 177, 0.849);
+}
+#gold {
+  background: rgba(241, 105, 56, 0.466);
+}
+#package-footer {
+  margin-bottom: 10px;
+}
+.card-item2 {
+  height: 420px;
+}
+.fa {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 22px;
+  color: rgba(o, o, o, o.4);
+  cursor: pointer;
+}
+.fa:hover {
+  background: #5000ca;
+  color: #fff;
+}
+#testimonial {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 44px 58px;
+}
+.testimonial-sec {
+  display: flex;
+}
+.avatar {
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#avt-card {
+    display:inline;
+    background: none;
+}
+.footer-sec{
+    background:black;
+}
+ .footer-sec-main {
+    display: flex;
+} 
+.box-in-main{
+     border-radius: 10px;
+    padding: 30px;   
+}
+
+.box-in-container{
+    padding: 0 100px;
+    transform: translateY(-60px);
+    
+}
+#avt-card {
+    color: #fff;
+}
